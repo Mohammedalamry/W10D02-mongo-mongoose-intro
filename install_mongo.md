@@ -17,7 +17,7 @@
 
 In terminal type `brew services start mongodb-community@4.2` to run the mongo server.
 
-You will probably get an error saying
+<!-- You will probably get an error saying
 > "Data directory `/data/db` not found., terminating"
 	- if so, you will need to make the directories in your **root** directory as follows (do these commands anywhere):
 
@@ -26,7 +26,7 @@ You will probably get an error saying
 	* `sudo mkdir /data/db`
 
 * Next, set root permissions
-	* `sudo chmod -R 777 /data`
+	* `sudo chmod -R 777 /data` -->
 
 Run the mongo server again: `mongod`.
 
