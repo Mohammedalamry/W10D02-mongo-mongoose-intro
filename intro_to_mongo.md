@@ -57,8 +57,8 @@ A collection is a set of documents. Documents are a set of data records. This is
 Here is one document:
 
 ```js
- firstName: "Abdul",
- lastName: "Yousf",
+ firstName: "Abdullah",
+ lastName: "Fahad",
  address: "Abhar",
  city: "Jeddah",
  telephone: "867-5309",
