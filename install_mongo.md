@@ -11,11 +11,11 @@
 	* If not, install [Homebrew](https://brew.sh/) by following the instructions on the web page
 	* If brew is already installed `brew upgrade`.
 
-* **Install Mongodb on Mac OS X:** `brew install mongodb`
+* **Install Mongodb on Mac OS X:** `brew install mongodb-community@4.2`
 
 ## Set data location
 
-In terminal type `brew services start mongodb` to run the mongo server.
+In terminal type `brew services start mongodb-community@4.2` to run the mongo server.
 
 You will probably get an error saying
 > "Data directory `/data/db` not found., terminating"
