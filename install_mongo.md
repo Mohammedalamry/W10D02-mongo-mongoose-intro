@@ -10,6 +10,7 @@
 
 	* If not, install [Homebrew](https://brew.sh/) by following the instructions on the web page
 	* If brew is already installed `brew upgrade`.
+	* Run on the terminal before `brew tap mongodb/brew`
 
 * **Install Mongodb on Mac OS X:** `brew install mongodb-community@4.2`
 
