@@ -38,7 +38,7 @@ Should see: "waiting for connections on port 27017"
 
 * To quit `mongo`, type `exit` or `quit()`.  
 
-* To quit `mongod` hit `control+c`
+* To quit `mongo` hit `control+c`
 
 Finished!
 
