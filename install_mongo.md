@@ -44,16 +44,3 @@ Should see: "waiting for connections on port 27017"
 Finished!
 
 
-## Errors
-
-If at some point you get an error with `mongod`:
-
-1. `ps -A | grep mongod`
-1. find the line that just mentions `mongod`, but not `grep`
-1. take note of the number on the left
-1. type `kill 1774` or whatever that number is.  Try `mongod` again.
-1. If that doesn't work, go to `/data/db` and `rm mongod.lock`.  Try `mongod` again.
-
-## Down the Rabbit Hole: Hungry for More
-
-[Understanding Permissions](https://www.elated.com/articles/understanding-permissions/)
