@@ -29,7 +29,7 @@ In terminal type `brew services start mongodb-community@4.2` to run the mongo se
 * Next, set root permissions
 	* `sudo chmod -R 777 /data` -->
 
-Run the mongo server again: `mongod`.
+Run the mongo server again: `mongo`.
 
 Should see: "waiting for connections on port 27017"
 
